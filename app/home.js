@@ -55,7 +55,7 @@ export default function HomeScreen() {
     <Center flex={1} px={5} bg="gray.100">
       <VStack space={4} w="100%" alignItems="center">
         <Heading>Hola {user?.nombre}</Heading>
-        <Button w="100%" onPress={() => router.push("/pacientes")}>Ver Pacientes</Button>
+        <Button w="100%" onPress={() => router.push("/paciente")}>Ver Pacientes</Button>
         <Button w="100%" colorScheme="red" onPress={handleLogout}>Cerrar Sesión</Button>
       </VStack>
     </Center>
